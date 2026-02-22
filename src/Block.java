@@ -151,7 +151,7 @@ public class Block {
     @Override
     public String toString() {
         return "┌─ Block ────────────────────────────────────────────────\n" +
-                "│  Data      : " + BlockName      + "\n" +
+                "│  Name      : " + BlockName      + "\n" +
                 "│  Timestamp : " + timestamp + "\n" +
                 "│  Nonce     : " + nonce     + "\n" +
                 "│  PrevHash  : " + prevHash  + "\n" +
